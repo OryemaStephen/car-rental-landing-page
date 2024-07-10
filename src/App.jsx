@@ -6,8 +6,20 @@ import Contact from "./Components/Contact";
 import Fleet from "./Components/Fleet";
 import Login from "./Components/Login";
 import Register from "./Components/Register";
+import { useEffect, useState } from 'react';
 
 function App() {
+  const [cars, setCars] = useState([])
+
+    useEffect(()=>{
+        fetch('/data.json')
+        .then((response)=>response.json())
+        .then((data)=>{
+          setCars(data);
+        })
+        .catch((error)=>console.log(error))
+    },[]);
+
   return (
     <Router>
       <Navbars />
@@ -15,7 +27,7 @@ function App() {
         <Route path="/" element={
           <>
               <Home />
-              <Fleet />
+              <Fleet cars={cars}/>
               <About />
               <Contact />
           </>

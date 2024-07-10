@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2022,
+    "seater":5,
+    "color": "Silver",
+    "mileage": 20000,
+    "price": 25000,
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "engine": "2.0L 4-cylinder",
+    "horsepower": 169,
+    "features": [
+      "Bluetooth",
+      "Backup Camera",
+      "Keyless Entry"
+    ],
+    "owners": 1,
+    "image": "https://www.edmunds.com/assets/m/for-sale/16-1nxbu4ee7az263620/img-1-600x400.jpg"
+  },
+  {
+    "id": 2,
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2021,
+    "seater":4,
+    "color": "White",
+    "mileage": 18000,
+    "price": 22000,
+    "fuelType": "Gasoline",
+    "transmission": "CVT",
+    "engine": "1.5L 4-cylinder",
+    "horsepower": 158,
+    "features": [
+      "Apple CarPlay",
+      "Android Auto",
+      "Lane Departure Warning"
+    ],
+    "owners": 2,
+    "image": "https://vehicle-images.dealerinspire.com/7759-11001597/thumbnails/large/2HGFE2F5XRH591183/5bede98f4289ccc5c22a57a83c784146.png"
+  },
+  {
+    "id": 3,
+    "make": "Ford",
+    "model": "Mustang",
+    "year": 2020,
+    "color": "Red",
+    "seater":2,
+    "mileage": 15000,
+    "price": 35000,
+    "fuelType": "Gasoline",
+    "transmission": "Manual",
+    "engine": "5.0L V8",
+    "horsepower": 450,
+    "features": [
+      "Leather Seats",
+      "Navigation System",
+      "Heated Seats"
+    ],
+    "owners": 1,
+    "image": "https://di-uploads-pod21.dealerinspire.com/lindsayhonda/uploads/2019/04/2019-Honda-Civic-LX-Platinum-White-Pearl-HERO.png"
+  },
+  {
+    "id": 4,
+    "make": "Chevrolet",
+    "model": "Equinox",
+    "year": 2019,
+    "seater":5,
+    "color": "Blue",
+    "mileage": 30000,
+    "price": 20000,
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "engine": "1.5L 4-cylinder",
+    "horsepower": 170,
+    "features": [
+      "Rearview Camera",
+      "Blind-Spot Monitoring",
+      "Wi-Fi Hotspot"
+    ],
+    "owners": 2,
+    "image": "https://digital.pixelmotion.com/assets/theme/seo-page-builder/images/2019/Chevrolet/Equinox%20LT/2019%20Chevrolet%20Equinox%20LT%20Pacific%20Blue%20Exterior%20Front%20View%20Picture.jpg"
+  },
+  {
+    "id": 5,
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2020,
+    "seater":4,
+    "color": "Black",
+    "mileage": 22000,
+    "price": 21000,
+    "fuelType": "Gasoline",
+    "transmission": "CVT",
+    "engine": "2.5L 4-cylinder",
+    "horsepower": 188,
+    "features": [
+      "Remote Start",
+      "Automatic Emergency Braking",
+      "Lane Keeping Assist"
+    ],
+    "owners": 1,
+    "image": "https://di-uploads-pod25.dealerinspire.com/planetnissan/uploads/2019/09/Altima-19.png"
+  },
+  {
+    "id": 6,
+    "make": "BMW",
+    "model": "3 Series",
+    "year": 2021,
+    "seater":4,
+    "color": "White",
+    "mileage": 12000,
+    "price": 40000,
+    "fuelType": "Diesel",
+    "transmission": "Automatic",
+    "engine": "2.0L 4-cylinder",
+    "horsepower": 255,
+    "features": [
+      "Sunroof",
+      "Adaptive Cruise Control",
+      "Parking Assistance"
+    ],
+    "owners": 1,
+    "image": "https://65e81151f52e248c552b-fe74cd567ea2f1228f846834bd67571e.ssl.cf1.rackcdn.com/ldm-images/2021-BMW-3-Series-hero.png"
+  },
+  {
+    "id": 7,
+    "make": "Tesla",
+    "model": "Model 3",
+    "year": 2022,
+    "seater":2,
+    "color": "Red",
+    "mileage": 8000,
+    "price": 45000,
+    "fuelType": "Electric",
+    "transmission": "Automatic",
+    "engine": "Electric Motor",
+    "horsepower": 322,
+    "features": [
+      "Autopilot",
+      "Full Self-Driving Capability",
+      "Premium Audio System"
+    ],
+    "owners": 1,
+    "image": "https://media.ed.edmunds-media.com/tesla/model-3/2018/oem/2018_tesla_model-3_sedan_performance_fq_oem_2_600.jpg"
+  },
+  {
+    "id": 8,
+    "make": "Audi",
+    "model": "Q5",
+    "year": 2021,
+    "seater":4,
+    "color": "Gray",
+    "mileage": 15000,
+    "price": 38000,
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "engine": "2.0L 4-cylinder",
+    "horsepower": 248,
+    "features": [
+      "Virtual Cockpit",
+      "Panoramic Sunroof",
+      "Apple CarPlay"
+    ],
+    "owners": 1,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2qe9jK5ncQYXM48ZG_PyB7wr6A-Qklvum5g&s"
+  },
+  {
+    "id": 9,
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "year": 2020,
+    "seater":5,
+    "color": "Silver",
+    "mileage": 18000,
+    "price": 42000,
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "engine": "2.0L 4-cylinder",
+    "horsepower": 255,
+    "features": [
+      "MBUX Infotainment",
+      "Heated Steering Wheel",
+      "Air Suspension"
+    ],
+    "owners": 2,
+    "image": "https://res.cloudinary.com/caradvice/image/private/q_auto/v1583223727/ynstuapncz58ojetggeg.jpg"
+  },
+  {
+    "id": 10,
+    "make": "Chevrolet",
+    "model": "Tahoe",
+    "year": 2020,
+    "seater":5,
+    "color": "Black",
+    "mileage": 25000,
+    "price": 45000,
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "engine": "5.3L V8",
+    "horsepower": 355,
+    "features": [
+      "Leather Seats",
+      "Third-Row Seating",
+      "Power Liftgate"
+    ],
+    "owners": 2,
+    "image": "https://65e81151f52e248c552b-fe74cd567ea2f1228f846834bd67571e.ssl.cf1.rackcdn.com/GM%20US/2020%20Chevrolet%20Tahoe/Exterior/Black.jpg"
+  },
+  {
+    "id": 11,
+    "make": "Subaru",
+    "model": "Outback",
+    "year": 2021,
+    "seater":5,
+    "color": "Green",
+    "mileage": 12000,
+    "price": 32000,
+    "fuelType": "Gasoline",
+    "transmission": "CVT",
+    "engine": "2.5L 4-cylinder",
+    "horsepower": 182,
+    "features": [
+      "All-Wheel Drive",
+      "Roof Rails",
+      "Adaptive Cruise Control"
+    ],
+    "owners": 1,
+    "image": "https://cdn.oem-production.subaru.com.au/media/w1cflis4/my24-outback-awd-sport-autumngreenmetallic-front.png"
+  },
+  {
+    "id": 12,
+    "make": "Lexus",
+    "model": "RX 350",
+    "year": 2022,
+    "seater":5,
+    "color": "White",
+    "mileage": 8000,
+    "price": 48000,
+    "fuelType": "Gasoline",
+    "transmission": "Automatic",
+    "engine": "3.5L V6",
+    "horsepower": 295,
+    "features": [
+      "Premium Leather Seats",
+      "Panoramic Sunroof",
+      "Mark Levinson Audio"
+    ],
+    "owners": 1,
+    "image": "https://platform.cstatic-images.com/in/v2/stock_photos/881c1beb-9ed6-458b-a3d2-3fe2489b61ef/6999330b-15da-4052-a4b5-52aa5d564b68.png"
+  }
+]

@@ -5,9 +5,16 @@
 
 #home{
   margin-top: 65px;
+  width: 100%;
+  height: fit-content;
+  scroll-margin-top: 80px;
+  padding-bottom: 20px;
 }
- #home,
- #fleet,
+
+#home > div:first-child > h3{
+  padding-top: 40px;
+}
+
  #about,
  #contact{
   width: 100%;
@@ -17,6 +24,10 @@
 }
 
 #fleet{
+  width: 100%;
+  height: fit-content;
+  scroll-margin-top: 5px;
+  padding-bottom: 20px;
   padding-top: 80px;
 }
 
@@ -39,4 +50,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.car-brand-container{
+  height: 30px;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.car-brand{
+  width: 60px;
+  height: auto ;
+}
+
+@media screen  and (max-width:480px){
+  .car-brand{
+    width: 30px;
+    height: auto ;
+  }
 }
