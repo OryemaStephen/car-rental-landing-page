@@ -1,5 +1,4 @@
 import { Container, Nav, Navbar, Image } from 'react-bootstrap';
-import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 
 function Navbars() {
@@ -16,7 +15,7 @@ function Navbars() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="bg-light" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto justify-content-between">
             <Nav.Link href="#home" className="text-white">Home</Nav.Link>
             <Nav.Link href="#fleet" className="text-white" >Fleet</Nav.Link>
             <Nav.Link href="#about" className="text-white">About Us</Nav.Link>
@@ -32,8 +31,5 @@ function Navbars() {
   );
 }
 
-Navbars.propTypes = {
-  setShow: PropTypes.func.isRequired,
-};
 
 export default Navbars;

@@ -1,15 +1,23 @@
 .logo{
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
 }
 
+#home{
+  margin-top: 65px;
+}
  #home,
  #fleet,
  #about,
  #contact{
   width: 100%;
   height: fit-content;
-  padding-top: 100px;
+  scroll-margin-top: 80px;
+  padding-bottom: 20px;
+}
+
+#fleet{
+  padding-top: 80px;
 }
 
 .hamburger{
@@ -17,6 +25,18 @@
   background-color: #000000;
 }
 
-.bg-custom {
-  background-color: #eae9e7 !important; /* Example hex color for background */
+.home-filter{
+  width: 90%;
+  height: fit-content;
+  margin:auto auto -80px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  box-shadow: 0px 15px 15px -3px rgba(0,0,0,0.1);
+}
+
+.home-filter>div:last-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
