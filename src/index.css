@@ -1,0 +1,22 @@
+.logo{
+  width: 60px;
+  height: 60px;
+}
+
+ #home,
+ #fleet,
+ #about,
+ #contact{
+  width: 100%;
+  height: fit-content;
+  padding-top: 100px;
+}
+
+.hamburger{
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.bg-custom {
+  background-color: #eae9e7 !important; /* Example hex color for background */
+}
