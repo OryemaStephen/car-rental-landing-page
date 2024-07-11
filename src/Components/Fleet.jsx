@@ -7,11 +7,11 @@ const Fleet = ({cars}) => {
   return (
     <div id="fleet" className="container-fluid bg-light text-black">
       <div className="car-brand-container container d-flex justify-content-between align-items-center gap-4">
-        <Image src="src\assets\honda-svgrepo-com.svg" className="car-brand"/>
-        <Image src="src\assets\acura-svgrepo-com.svg" className="car-brand"/>
-        <Image src="src\assets\jaguar-svgrepo-com.svg" className="car-brand"/>
-        <Image src="src\assets\nissan-svgrepo-com.svg" className="car-brand"/>
-        <Image src="src\assets\volvo-alt-svgrepo-com.svg" className="car-brand"/>
+        <Image src="./src/assets/honda-svgrepo-com.svg" className="car-brand"/>
+        <Image src="./src/assets/acura-svgrepo-com.svg" className="car-brand"/>
+        <Image src="./src/assets/jaguar-svgrepo-com.svg" className="car-brand"/>
+        <Image src="./src/assets/nissan-svgrepo-com.svg" className="car-brand"/>
+        <Image src="./src/assets/volvo-alt-svgrepo-com.svg" className="car-brand"/>
       </div>
 
       <div className="container pt-4 pb-4 mb-3 text-center">

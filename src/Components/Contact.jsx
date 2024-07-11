@@ -11,7 +11,7 @@ const Contact = () => {
           <div className="comments">
             <div className="comment align-content-start ">
                 <div className="profile d-flex justify-content-start align-items-center pb-2">
-                    <Image className="avatar" src="src\assets\profile.svg" />
+                    <Image className="avatar" src="./src/assets/profile.svg" />
                     <div>
                         <span className="name">Clifford</span><br />
                         <span className="verifier">CapeTown, South Africa</span>
@@ -25,7 +25,7 @@ const Contact = () => {
             </div>
             <div className="comment">
                 <div className="profile d-flex justify-content-start align-items-center pb-2">
-                    <Image className="avatar" src="src\assets\profile.svg" />
+                    <Image className="avatar" src="./src/assets/profile.svg" />
                     <div>
                         <span className="name">Daniel </span><br />
                         <span className="verifier">Nairobi, Kenya</span>
@@ -39,7 +39,7 @@ const Contact = () => {
             </div>
             <div className="comment">
                 <div className="profile d-flex justify-content-start align-items-center pb-2">
-                    <Image className="avatar" src="src\assets\profile.svg" />
+                    <Image className="avatar" src="./src/assets/profile.svg" />
                     <div>
                         <span className="name">Peter</span><br />
                         <span className="verifier">Kampala, Uganda</span>

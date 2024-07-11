@@ -5,9 +5,9 @@ const Footer = () => {
     const year = new Date().getFullYear();
   return (
     <div id="footer" className="container-fluid bg-black text-white">
-        <div className="container-fluid d-flex justify-content-between align-items-start pt-4 pb-4 flex-wrap">
-            <div className="w-25">
-                <Image src="src/assets/logo.png" className="logo"/>
+        <div className=" footer-detail container-fluid">
+            <div className="footer-main">
+                <Image src="./src/assets/logo.png" className="logo pb-3"/>
                 <p>
                     We are a well-known car rental service that 
                     has many partners in each region to conect with you to 
@@ -21,7 +21,8 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="w-25">
+            <div className="company">
+            <div className="footer-company">
                 <h4>Company</h4>
                 <p><a href="#">Home</a></p>
                 <p><a href="#about">About Us</a></p>
@@ -30,15 +31,16 @@ const Footer = () => {
                 
             </div>
 
-            <div className="w-25">
+            <div className="footer-services">
                 <h4>Services</h4>
                 <p>Airport Transfers</p>
                 <p>Ride-Hailing</p>
                 <p>Corporate Accounts</p>
                 <p>Hourly Rentals</p>
             </div>
+            </div>
 
-            <div className="w-25">
+            <div className="footer-workhour">
                 <h4>Work Gours</h4>
                 <p><FaClock /> 9AM-5PM. Monday - Saturday</p>
                 <p><FaPhone /> +256 770 000000</p>

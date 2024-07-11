@@ -1,10 +1,10 @@
 .logo{
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: auto;
 }
 
 #home{
-  margin-top: 65px;
+  margin-top: 60px;
   width: 100%;
   height: fit-content;
   scroll-margin-top: 80px;
@@ -19,7 +19,7 @@
  #contact{
   width: 100%;
   height: fit-content;
-  scroll-margin-top: 70px;
+  scroll-margin-top: 60px;
   padding-bottom: 20px;
 }
 
@@ -161,6 +161,50 @@
   color: #ffffff;
 }
 
+.footer-detail{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 10px;
+}
+
+.footer-detail h4{
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.footer-detail p{
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.footer-detail p a{
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-detail p a:hover{
+  color: #565758;
+}
+
+.footer-main{
+  width: 30%;
+}
+
+.company{
+ width: 40%;
+ display: flex;
+ justify-content: space-between;
+ gap: 10px;
+}
+
+.footer-workhour{
+  width: 20%;
+}
 
 
 @media screen  and (max-width:480px){
@@ -197,10 +241,27 @@
   .comments{
     flex-wrap: wrap;
   }
+  
+  .footer-detail{
+    width: 100%;
+    display: block;
+  }
+  
+  .footer-main{
+    width: 100%;
+    border-bottom: 1px solid #565758;
+    padding-bottom: 20px;
+  } 
 
-  #footer > div:first-child{
-    display: grid;
+  .company{
+    width: 100%;
+    padding-top: 20px;
+    border-bottom: 1px solid #565758;
+  }
 
+  .footer-workhour{
+    width: 100%;
+    padding-top: 20px;
   }
 }
 
