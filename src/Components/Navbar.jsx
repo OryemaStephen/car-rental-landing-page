@@ -1,4 +1,5 @@
 import { Container, Nav, Navbar, Image } from 'react-bootstrap';
+import logo from '../assets/image/logo.png'
 // import { useNavigate } from 'react-router-dom';
 
 function Navbars() {
@@ -11,7 +12,7 @@ function Navbars() {
     <Navbar collapseOnSelect expand="lg" className="container-fluid bg-black" fixed="top">
       <Container fluid="lg">
         <Navbar.Brand href='#home'>
-          <Image src="./src/assets/logo.png" rounded className="logo" />
+          <Image src={logo} rounded className="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="bg-light" />
         <Navbar.Collapse id="responsive-navbar-nav">

@@ -1,4 +1,5 @@
 import { Image } from "react-bootstrap";
+import logo from '../assets/image/logo.png'
 import { FaArrowCircleUp, FaClock, FaFacebook, FaInstagram, FaLinkedin, FaPhone, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
@@ -7,7 +8,7 @@ const Footer = () => {
     <div id="footer" className="container-fluid bg-black text-white">
         <div className=" footer-detail container-fluid">
             <div className="footer-main">
-                <Image src="./src/assets/logo.png" className="logo pb-3"/>
+                <Image src={logo} className="logo pb-3"/>
                 <p>
                     We are a well-known car rental service that 
                     has many partners in each region to conect with you to 

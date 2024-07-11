@@ -3,15 +3,20 @@ import { Button, Image } from 'react-bootstrap';
 import {  FaArrowRight, FaSearchengin, FaUsers } from 'react-icons/fa';
 import {  FaCodeFork } from 'react-icons/fa6';
 import Operation from './Operation';
+import honda from '../assets/image/honda-svgrepo-com.svg';
+import acura from '../assets/image/acura-svgrepo-com.svg';
+import jaguar from '../assets/image/jaguar-svgrepo-com.svg';
+import volvo from '../assets/image/volvo-alt-svgrepo-com.svg';
+import nissan from '../assets/image/nissan-svgrepo-com.svg';
 const Fleet = ({cars}) => {
   return (
     <div id="fleet" className="container-fluid bg-light text-black">
       <div className="car-brand-container container d-flex justify-content-between align-items-center gap-4">
-        <Image src="./src/assets/honda-svgrepo-com.svg" className="car-brand"/>
-        <Image src="./src/assets/acura-svgrepo-com.svg" className="car-brand"/>
-        <Image src="./src/assets/jaguar-svgrepo-com.svg" className="car-brand"/>
-        <Image src="./src/assets/nissan-svgrepo-com.svg" className="car-brand"/>
-        <Image src="./src/assets/volvo-alt-svgrepo-com.svg" className="car-brand"/>
+        <Image src={honda} className="car-brand"/>
+        <Image src={acura} className="car-brand"/>
+        <Image src={jaguar} className="car-brand"/>
+        <Image src={nissan} className="car-brand"/>
+        <Image src={volvo} className="car-brand"/>
       </div>
 
       <div className="container pt-4 pb-4 mb-3 text-center">
