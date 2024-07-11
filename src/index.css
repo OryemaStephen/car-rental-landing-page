@@ -63,6 +63,38 @@
   height: auto ;
 }
 
+.car-details { 
+  flex: 1;
+  min-width: 250px; 
+  box-shadow: 0px 15px 15px -3px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.fleet-image-container{
+  width: 100%;
+  height: 200px;
+}
+
+.car-image {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  object-fit: fill;
+}
+
+.car-info{
+  padding: 10px;
+}
+
+.car-info .car-specs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  color: #565758;
+}
+
 @media screen  and (max-width:480px){
   .car-brand{
     width: 30px;
