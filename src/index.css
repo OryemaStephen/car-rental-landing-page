@@ -139,6 +139,29 @@
   color: rgb(209, 206, 206);
 }
 
+.comments{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.comment{
+  text-align: left;
+  padding: 20px;
+  box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.comment:hover,
+.comment.active{
+  background-color: #565758;
+  color: #ffffff;
+}
+
+
 @media screen  and (max-width:480px){
   .car-brand{
     width: 30px;
@@ -168,6 +191,10 @@
 
   .working-image{
     width: 100%;
+  }
+
+  .comments{
+    flex-wrap: wrap;
   }
 }
 
