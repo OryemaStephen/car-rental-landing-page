@@ -162,6 +162,7 @@
 }
 
 
+
 @media screen  and (max-width:480px){
   .car-brand{
     width: 30px;
@@ -195,6 +196,11 @@
 
   .comments{
     flex-wrap: wrap;
+  }
+
+  #footer > div:first-child{
+    display: grid;
+
   }
 }
 

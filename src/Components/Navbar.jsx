@@ -19,7 +19,7 @@ function Navbars() {
             <Nav.Link href="#home" className="text-white">Home</Nav.Link>
             <Nav.Link href="#fleet" className="text-white" >Fleet</Nav.Link>
             <Nav.Link href="#about" className="text-white">About Us</Nav.Link>
-            <Nav.Link href="#contact" className="text-white">Contact Us</Nav.Link>
+            <Nav.Link href="#footer" className="text-white">Contact Us</Nav.Link>
           </Nav>
           {/* <Nav className="ms-auto">
             <Nav.Link className="text-white" onClick={handleLoginClick}>Login</Nav.Link>

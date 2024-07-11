@@ -7,6 +7,7 @@ import Fleet from "./Components/Fleet";
 import Login from "./Components/Login";
 import Register from "./Components/Register";
 import { useEffect, useState } from 'react';
+import Footer from './Components/Footer';
 
 function App() {
   const [cars, setCars] = useState([])
@@ -30,6 +31,7 @@ function App() {
               <Fleet cars={cars}/>
               <About />
               <Contact />
+              <Footer />
           </>
         } />
         <Route path="/login" element={<Login />} />
