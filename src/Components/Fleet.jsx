@@ -8,6 +8,7 @@ import acura from '../assets/image/acura-svgrepo-com.svg';
 import jaguar from '../assets/image/jaguar-svgrepo-com.svg';
 import volvo from '../assets/image/volvo-alt-svgrepo-com.svg';
 import nissan from '../assets/image/nissan-svgrepo-com.svg';
+
 const Fleet = ({cars}) => {
   return (
     <div id="fleet" className="container-fluid bg-light text-black">
