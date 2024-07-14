@@ -8,8 +8,6 @@
   - [Objective](#objective)
   - [Demo Links](#demo-links)
   - [Technologies Used](#technologies-used)
-    - [1. Backend Dependencies](#1-backend-dependencies)
-    - [2. Frontend Dependencies](#2-frontend-dependencies)
   - [Features](#features)
   - [Contact](#contact)
 
